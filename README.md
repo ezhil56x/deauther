@@ -42,16 +42,16 @@ sudo chmod +x /opt/deauther/deauther
 
 ## Options
 
-| Option                          | Description                     |
-| ------------------------------- | ------------------------------- |
-| `-h` or `--help`                | Show help message and exit      |
-| `--mode=<mode> `                | Specify the mode to use         |
-| `--interface=<interface>`       | Specify the interface to use    |
-| `--time=<time>`                 | Specify the time to use         |
-| `--channel=<channel>`           | Specify the channel to use      |
-| `--access-point=<access-point>` | Specify the access point to use |
-| `--client=<client>`             | Specify the client to use       |
-| `--number=<number>`             | Specify the number to use       |
+| Option                          | Description                                     |
+| ------------------------------- | ----------------------------------------------- |
+| `-h` or `--help`                | Show help message and exit                      |
+| `--mode=<mode> `                | Specify the mode to use                         |
+| `--interface=<interface>`       | Specify the Wi-Fi interface                     |
+| `--time=<time>`                 | Specify the time you want to scan               |
+| `--channel=<channel>`           | Specify the channel number of the Wi-Fi network |
+| `--access-point=<access-point>` | Specify the access point MAC to use             |
+| `--client=<client>`             | Specify the client MAC to use                   |
+| `--number=<number>`             | Specify the number to packets to send           |
 
 ## Modes of Operation
 
