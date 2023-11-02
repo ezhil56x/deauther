@@ -93,13 +93,13 @@ sudo deauther --mode=list_clients
 ### Deauthenticate all clients from a Wi-Fi network
 
 ```
-sudo deauther --mode=deauth_all --interface=wlan0 --channel=6 --access-point=FF:FF:FF:FF:FF:FF --number=120
+sudo deauther --mode=deauth_all --interface=wlan0 --access-point=FF:FF:FF:FF:FF:FF --number=10000
 ```
 
 ### Deauthenticate a specific client from a Wi-Fi network
 
 ```
-sudo deauther --mode=deauth_client --interface=wlan0 --channel=6 --access-point=FF:FF:FF:FF:FF:FF --client=FF:FF:FF:FF:FF:FF --number=120
+sudo deauther --mode=deauth_client --interface=wlan0 --access-point=FF:FF:FF:FF:FF:FF --client=FF:FF:FF:FF:FF:FF --number=10000
 ```
 
 ## License
