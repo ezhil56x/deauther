@@ -69,7 +69,7 @@ sudo chmod +x /opt/deauther/deauther
 ### Scan Wi-Fi networks
 
 ```
-sudo deauther --mode=scan_wn --interface=wlan0 --time=120
+sudo deauther --mode=scan_wns --interface=wlan0 --time=120
 ```
 
 ### List available Wi-Fi networks
